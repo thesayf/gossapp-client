@@ -37,7 +37,7 @@ class Login extends React.Component {
     </div>
       <div className="ui form">
           <div className="field">
-            <label>email</label>
+            <label>email 1</label>
             <input onChange={(e) => this.handleChange(e)} name="email" placeholder="email" type="text"></input>
           </div>
           <div className="field">

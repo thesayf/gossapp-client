@@ -1,4 +1,4 @@
-const endpoint = 'http://localhost:3000'
+const endpoint = 'https://gossap-api.herokuapp.com/'
 const signupUrl = `${endpoint}/users`
 const loginUrl = `${endpoint}/login`
 const postsUrl = `${endpoint}/posts`
