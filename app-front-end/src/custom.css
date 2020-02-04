@@ -1,0 +1,217 @@
+/* MOBILE CSS */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.article-feed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.card-custom-css-mobile {
+  width: 100% !important;
+}
+
+}
+
+/* IPAD CSS */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-width {
+  width: 300px;
+}
+
+.login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  /* margin-left: 70px; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content:center;
+  justify-content:space-between;
+}
+
+.card-custom-css {
+  width: 30% !important;
+  height: 500px !important;
+}  
+  
+}
+
+/* DESKTOP CSS */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-width {
+  width: 300px;
+}
+
+.login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-field-css {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-css {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 70px;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content:center;
+  /* justify-content:space-between; */
+}
+
+.card-custom-css {
+  width: 30% !important;
+  height: 500px !important;
+}  
+  
+}
+
+ .change-location-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center
+ }
+
+ 
+ .input-button-margin-top {
+  margin-top: 5px !important
+ }
+ 
+ .header-margin-top {
+  margin-top: 20px !important
+ }
+
+ .padding-top {
+   margin-top: 150px
+ }
+ 
+ 
+ .grey-color {
+  background-color: grey; 
+ }
+
+ .margin-left-100 {
+   margin-left: 110
+ }
+
+ .teal {
+  color: #00b5ad
+ }
+
+ .signUp-box-padding {
+  margin-top: 20px
+ }
